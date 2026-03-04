@@ -9,7 +9,7 @@
     <!-- Open Graph -->
     <meta property="og:title" content="[투어메이커] 일본 오사카/교토 3일 일정표">
     <meta property="og:description" content="모두투어 제휴상품/스루가이드동행/3대특식 - 투어메이커가 제안하는 믿을 수 있는 일본여행">
-    <meta property="og:image" content="https://tse3.mm.bing.net/th/id/OIP.adLKNwxckxouAIYY7nnKqAHaE7?w=474&h=379&c=7&p=0">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1590559899731-a382839e5549?q=80&w=2070&auto=format&fit=crop">
 
     <!-- ==================================================================================
          [데이터 분석] Google Analytics 4 (GA4) 설치 영역
@@ -152,18 +152,67 @@
             </div>
         </section>
 
-        <!-- 2. Airport Guide (Updated) -->
+        <!-- 2. Airport Guide & Through Guide Profile -->
         <section id="guide" class="py-20 bg-slate-50">
             <div class="container mx-auto px-4">
                 <div class="text-center mb-12">
                     <span class="text-indigo-600 font-bold tracking-wider uppercase text-sm">Safe Guide</span>
-                    <h2 class="text-3xl font-bold mt-2 text-slate-800">출발 & 도착 안심 가이드</h2>
-                    <p class="text-slate-500 mt-2">인솔자 동반으로 더 안전하고 편안한 여행</p>
+                    <h2 class="text-3xl font-bold mt-2 text-slate-800">전일정 안심 동행 서비스</h2>
+                    <p class="text-slate-500 mt-2">전문 스루가이드가 인천공항부터 끝까지 함께합니다.</p>
+                </div>
+
+                <!-- 스루가이드 프로필 카드 -->
+                <div class="max-w-6xl mx-auto mb-10 bg-gradient-to-br from-indigo-700 to-blue-800 rounded-2xl shadow-xl border border-indigo-400 overflow-hidden text-white animate-fade-in-up">
+                    <div class="p-6 md:p-8">
+                        <div class="flex flex-col md:flex-row items-center gap-6 md:gap-10">
+                            <div class="shrink-0 text-center relative">
+                                <!-- 프로필 이미지 대체 아이콘 -->
+                                <div class="w-28 h-28 bg-white/20 rounded-full flex items-center justify-center mx-auto border-4 border-indigo-300 shadow-inner">
+                                    <i class="fa-solid fa-user-tie text-5xl text-white"></i>
+                                </div>
+                                <span class="absolute -bottom-3 left-1/2 transform -translate-x-1/2 bg-rose-500 text-white text-xs px-3 py-1.5 rounded-full font-bold shadow-lg whitespace-nowrap">
+                                    전일정 동행
+                                </span>
+                            </div>
+                            
+                            <div class="flex-grow text-center md:text-left mt-2 md:mt-0">
+                                <h3 class="text-2xl md:text-3xl font-bold mb-2">유소라 스루가이드</h3>
+                                <p class="text-indigo-200 text-sm md:text-base mb-4 leading-relaxed">
+                                    인천공항 출국 수속부터 귀국하시는 순간까지 가장 편안하고 안전하게 모시겠습니다.<br class="hidden md:block">
+                                    <span class="text-yellow-300 font-medium">※ 출발 전, 가이드가 개별 '해피콜'을 통해 상세히 안내해 드릴 예정입니다.</span>
+                                </p>
+                                
+                                <div class="flex flex-col sm:flex-row gap-3 justify-center md:justify-start">
+                                    <a href="tel:01026502097" onclick="trackClick('Guide', 'Call_YooSora')" class="bg-white text-indigo-700 hover:bg-indigo-50 px-5 py-3 rounded-xl flex items-center justify-center gap-2 font-bold transition-colors shadow-md group">
+                                        <i class="fa-solid fa-phone-volume group-hover:animate-bounce"></i>
+                                        <span>010-2650-2097</span>
+                                    </a>
+                                    <div class="bg-indigo-900/50 px-5 py-3 rounded-xl flex items-center justify-center gap-2 text-sm font-medium border border-indigo-500/30">
+                                        <i class="fa-solid fa-shield-heart text-rose-400 text-lg"></i>
+                                        <span>베테랑 여성 전문 가이드</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 공동행사 안내 박스 -->
+                        <div class="mt-8 bg-white/10 p-4 md:p-5 rounded-xl border border-white/20 text-sm">
+                            <div class="flex items-start gap-3">
+                                <i class="fa-solid fa-circle-info text-yellow-300 text-lg mt-0.5"></i>
+                                <div>
+                                    <p class="font-bold text-white mb-1">패키지 상품 공동행사 안내</p>
+                                    <p class="text-indigo-100 leading-relaxed">
+                                        본 여행은 예약이 마감되어 <span class="text-white font-bold bg-indigo-900/50 px-1 rounded">총 36명</span>(최소 출발 인원 10명 충족)의 고객님들과 함께 진행됩니다.<br class="hidden md:block">
+                                        패키지 상품 특성상 현지에서 다른 일행분들과 조인하여 공동으로 행사가 진행되는 점 참고 부탁드립니다.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="grid lg:grid-cols-2 gap-10 max-w-6xl mx-auto">
-                    
-                    <!-- Part 1: Incheon Departure (Revised) -->
+                    <!-- Part 1: Incheon Departure -->
                     <div class="bg-white rounded-2xl shadow-xl border border-slate-200 overflow-hidden">
                         <div class="bg-slate-800 p-4 text-white flex justify-between items-center">
                             <h3 class="text-lg font-bold"><i class="fa-solid fa-users-rectangle mr-2 text-yellow-400"></i>인천공항 미팅 (3/13 금)</h3>
@@ -174,30 +223,27 @@
                                 <i class="fa-solid fa-location-dot text-rose-500 text-3xl mb-3"></i>
                                 <h4 class="text-lg font-bold text-slate-800 mb-2">미팅 장소 안내</h4>
                                 <p class="text-base text-slate-700 font-bold break-keep">
-                                    일정표 참조 / 인천국제공항 제1터미널<br>3층 출국장
-                                </p>
-                                <p class="text-sm text-indigo-600 mt-2 font-medium">
-                                    (가이드 별도 연락 예정)
+                                    인천국제공항 제1터미널 3층 출국장
                                 </p>
                             </div>
 
                             <div class="space-y-4 text-sm text-slate-700">
-                                <div class="flex items-center bg-slate-50 p-3 rounded-lg">
-                                    <span class="w-24 text-slate-500 font-bold">인솔자 동행</span>
-                                    <span class="font-bold text-slate-800">인천공항부터 가이드가 함께 출국합니다.</span>
+                                <div class="flex items-center bg-slate-50 p-3 rounded-lg border border-slate-100">
+                                    <span class="w-24 text-slate-500 font-bold flex items-center gap-1"><i class="fa-regular fa-clock"></i> 미팅시간</span>
+                                    <span class="font-bold text-indigo-700">08:30 (출발 3시간 전 집결)</span>
                                 </div>
-                                <div class="flex items-center bg-slate-50 p-3 rounded-lg">
-                                    <span class="w-24 text-slate-500 font-bold">미팅시간</span>
-                                    <span class="font-bold text-slate-800">08:30 (출발 3시간 전 집결)</span>
+                                <div class="flex items-center bg-slate-50 p-3 rounded-lg border border-slate-100">
+                                    <span class="w-24 text-slate-500 font-bold">탑승수속</span>
+                                    <span class="font-bold text-slate-800">E-티켓 발권 완료!<br class="md:hidden"> 가이드가 공항 출국 수속을 돕습니다.</span>
                                 </div>
-                                <div class="text-xs text-red-500 mt-2">
-                                    <i class="fa-solid fa-circle-exclamation mr-1"></i> 여권 유효기간이 6개월 이상 남았는지 꼭 확인해주세요!
+                                <div class="text-xs text-rose-500 mt-2 font-medium bg-rose-50 p-3 rounded-lg border border-rose-100">
+                                    <i class="fa-solid fa-circle-exclamation mr-1"></i> 여권 유효기간이 6개월 이상 남았는지 꼭! 확인해주세요.
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <!-- Part 2: Osaka Arrival (Simplified) -->
+                    <!-- Part 2: Osaka Arrival -->
                     <div class="bg-white rounded-2xl shadow-xl border border-slate-200 overflow-hidden">
                         <div class="bg-indigo-700 p-4 text-white flex justify-between items-center">
                             <h3 class="text-lg font-bold"><i class="fa-solid fa-bus mr-2 text-yellow-400"></i>오사카 도착 (3/13 13:00)</h3>
@@ -208,7 +254,7 @@
                                 <i class="fa-solid fa-face-smile text-emerald-600 text-xl mr-3"></i>
                                 <div>
                                     <p class="text-xs font-bold text-emerald-800">입국 스트레스 ZERO</p>
-                                    <p class="text-[10px] text-slate-600">가이드와 함께 입국하므로 현지 미팅 걱정이 없습니다.</p>
+                                    <p class="text-[10px] text-slate-600">스루가이드가 곁에 있어 현지 미팅 지연이나 헤맴이 없습니다.</p>
                                 </div>
                             </div>
 
@@ -217,17 +263,16 @@
                                 <div class="relative">
                                     <div class="absolute -left-[31px] top-0 w-4 h-4 bg-indigo-500 rounded-full ring-4 ring-white"></div>
                                     <h4 class="font-bold text-slate-800">1. 입국 심사 & 짐 찾기</h4>
-                                    <p class="text-xs text-slate-500 mt-1">Visit Japan Web 등록 → 짐 찾기</p>
+                                    <p class="text-xs text-slate-500 mt-1">Visit Japan Web 큐알코드 제시 → 수하물 수취</p>
                                 </div>
                                 <div class="relative">
                                     <div class="absolute -left-[31px] top-0 w-4 h-4 bg-indigo-500 rounded-full ring-4 ring-white"></div>
                                     <h4 class="font-bold text-indigo-700">2. 전용버스 탑승</h4>
-                                    <div class="mt-2 bg-indigo-50 p-4 rounded border border-indigo-200">
-                                        <p class="text-sm font-bold text-slate-800 mb-2"><i class="fa-solid fa-user-group text-indigo-500 mr-1"></i>가이드 인솔</p>
+                                    <div class="mt-2 bg-indigo-50 p-4 rounded-xl border border-indigo-100">
+                                        <p class="text-sm font-bold text-slate-800 mb-2"><i class="fa-solid fa-user-group text-indigo-500 mr-1"></i>유소라 가이드 인솔</p>
                                         <p class="text-sm text-slate-700 leading-relaxed">
                                             짐을 찾고 나오시면 가이드의 안내에 따라<br>
-                                            <span class="text-indigo-600 font-bold">대기 중인 전용 버스로 바로 이동</span>합니다.<br>
-                                            <span class="text-xs text-slate-500">(별도의 현지 가이드 미팅 없음)</span>
+                                            <span class="text-indigo-600 font-bold">우리 일행을 위해 대기 중인 전용 버스</span>로 바로 이동합니다.
                                         </p>
                                     </div>
                                 </div>
@@ -239,7 +284,7 @@
             </div>
         </section>
 
-        <!-- 3. Highlights (Images Updated) -->
+        <!-- 3. Highlights -->
         <section id="highlights" class="py-16 bg-white">
             <div class="container mx-auto px-4">
                 <div class="text-center mb-10">
@@ -275,7 +320,7 @@
             </div>
         </section>
 
-        <!-- 4. Timeline (Link Updated) -->
+        <!-- 4. Timeline -->
         <section id="timeline" class="py-20 bg-slate-50">
             <div class="container mx-auto px-4">
                 <div class="text-center mb-4">
@@ -428,7 +473,7 @@
             </div>
         </section>
 
-        <!-- 5. Hotel Info (Images Updated) -->
+        <!-- 5. Hotel Info -->
         <section id="hotel" class="py-16 bg-white">
             <div class="container mx-auto px-4">
                 <div class="max-w-5xl mx-auto">
@@ -477,7 +522,7 @@
             </div>
         </section>
 
-        <!-- 6. Video (Updated) -->
+        <!-- 6. Video -->
         <section class="py-16 bg-slate-900">
             <div class="container mx-auto px-4">
                 <div class="text-center mb-8 text-white">
@@ -515,21 +560,37 @@
                         <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200">
                             <h3 class="font-bold mb-4 text-slate-800">📞 비상 연락망</h3>
                             <div class="grid grid-cols-2 gap-4 text-sm">
-                                <div class="bg-slate-50 p-3 rounded hover:bg-slate-100 transition-colors">
+                                <!-- Guide Highlight -->
+                                <div class="col-span-2 bg-indigo-50 p-4 rounded-xl border border-indigo-200 shadow-sm hover:shadow-md transition-shadow">
+                                    <div class="flex justify-between items-center">
+                                        <div>
+                                            <p class="text-indigo-600 text-xs mb-1 font-bold"><i class="fa-solid fa-flag mr-1"></i>전담 스루가이드</p>
+                                            <p class="text-slate-800 font-bold text-lg mb-1">유소라 가이드</p>
+                                            <p class="text-slate-500 text-xs">베테랑 여성 가이드 동행</p>
+                                        </div>
+                                        <a href="tel:01026502097" class="bg-indigo-600 text-white px-5 py-2.5 rounded-lg font-bold shadow hover:bg-indigo-700 transition-colors" onclick="trackClick('Contact', 'Guide_Call')">
+                                            <i class="fa-solid fa-phone mr-1"></i> 연결
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- Tourmaker Manager -->
+                                <div class="bg-slate-50 p-3 rounded-lg border border-slate-100 hover:bg-slate-100 transition-colors">
                                     <p class="text-slate-500 text-xs mb-1">투어메이커 담당자</p>
                                     <p class="text-slate-800 font-bold mb-1">박준영</p>
-                                    <a href="tel:01053613454" class="block font-bold text-indigo-600 text-base" onclick="trackClick('Contact', 'Manager_Call')">010-5361-3454</a>
+                                    <a href="tel:01053613454" class="block font-bold text-indigo-600 text-sm" onclick="trackClick('Contact', 'Manager_Call')">010-5361-3454</a>
                                 </div>
-                                <div class="bg-slate-50 p-3 rounded hover:bg-slate-100 transition-colors">
+                                <!-- Embassy -->
+                                <div class="bg-slate-50 p-3 rounded-lg border border-slate-100 hover:bg-slate-100 transition-colors">
                                     <p class="text-slate-500 text-xs mb-1">일본 긴급 (영사관)</p>
-                                    <a href="tel:+81642562345" class="block font-bold text-slate-800 text-base" onclick="trackClick('Contact', 'Embassy_Call')">+81-6-4256-2345</a>
+                                    <p class="text-slate-800 font-bold mb-1">오사카 총영사관</p>
+                                    <a href="tel:+81642562345" class="block font-bold text-slate-800 text-sm" onclick="trackClick('Contact', 'Embassy_Call')">+81-6-4256-2345</a>
                                 </div>
                             </div>
                         </div>
                         
                         <!-- Memo -->
                         <div>
-                            <textarea id="travel-memo" class="notepad w-full h-[200px] p-4 text-slate-800 resize-none rounded-lg" placeholder="쇼핑 리스트, 맛집 정보, 여권 번호 등을 자유롭게 메모하세요."></textarea>
+                            <textarea id="travel-memo" class="notepad w-full h-[180px] p-4 text-slate-800 resize-none rounded-lg" placeholder="쇼핑 리스트, 맛집 정보, 여권 번호 등을 자유롭게 메모하세요."></textarea>
                             <p id="save-status" class="text-right text-xs text-slate-400 mt-1">저장 대기중...</p>
                         </div>
                     </div>
@@ -547,27 +608,37 @@
 
     </main>
 
-    <!-- Footer -->
-    <footer class="bg-slate-900 text-slate-400 py-16 text-center text-sm border-t border-slate-800">
+    <!-- Footer 전면 개선 (화이트/라이트그레이 톤으로 자연스러운 로고 융화) -->
+    <footer class="bg-slate-50 text-slate-600 py-16 text-center text-sm border-t border-slate-200">
         <div class="container mx-auto px-4">
             
-            <div class="inline-flex justify-center items-center gap-6 mb-8 bg-white rounded-xl py-4 px-8 shadow-lg">
+            <!-- 로고 영역: 배경 박스 제거하고 자연스럽게 배치 -->
+            <div class="flex justify-center items-center gap-6 mb-8">
                 <!-- Tourmaker -->
-                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHfgIX70O5k6Anuo0UgALIdaG9jSga9auHu3uyz0uEirylGPAJnjN_qQbvEGMUvPqUQf_g9FMNUHRxlDcUBf4vZ3Mpy4TnA9WxbmzWYK11gt2zuy_Irl4wctNFjcjLyPo0GPXV792o_J7L9guRMuDfeC1gy7USwywjYbECZgzcsHybuGRRAXAnO1eNmP8/s320/logo.png" alt="Tourmaker" class="h-8 md:h-10 w-auto">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHfgIX70O5k6Anuo0UgALIdaG9jSga9auHu3uyz0uEirylGPAJnjN_qQbvEGMUvPqUQf_g9FMNUHRxlDcUBf4vZ3Mpy4TnA9WxbmzWYK11gt2zuy_Irl4wctNFjcjLyPo0GPXV792o_J7L9guRMuDfeC1gy7USwywjYbECZgzcsHybuGRRAXAnO1eNmP8/s320/logo.png" alt="Tourmaker" class="h-8 md:h-10 w-auto opacity-90 hover:opacity-100 transition-opacity">
                 <span class="text-slate-300 font-light mx-2">|</span>
                 <!-- Modetour Logo -->
-                <img src="data:image/png;base64,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" alt="Modetour" class="h-8 md:h-10 w-auto">
+                <img src="data:image/png;base64,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" alt="Modetour" class="h-8 md:h-10 w-auto opacity-90 hover:opacity-100 transition-opacity">
             </div>
 
             <div class="max-w-2xl mx-auto space-y-2">
-                <p class="text-slate-300 font-medium">
-                    본 상품은 <span class="text-indigo-400 font-bold">모두투어</span>와 정식 제휴를 맺은 <span class="text-white font-bold">투어메이커</span>가<br class="md:hidden"> 판매, 예약, 결제 및 고객관리를 전담합니다.
+                <p class="text-slate-700 font-medium">
+                    본 상품은 <span class="text-indigo-600 font-bold">모두투어</span>와 정식 제휴를 맺은 <span class="text-slate-900 font-bold">투어메이커</span>가<br class="md:hidden"> 판매, 예약, 결제 및 고객관리를 전담합니다.
                 </p>
                 <p class="text-xs text-slate-500 leading-relaxed mt-4">
                     담당자: 박준영 | 문의: 010-5361-3454<br>
                     본 페이지의 일정은 현지 사정에 따라 변경될 수 있습니다.
                 </p>
-                <p class="text-[10px] text-slate-600 mt-4">
+
+                <!-- 투어메이커 홈페이지 바로가기 버튼 -->
+                <div class="mt-8 mb-4">
+                    <a href="https://tourmaker.kr" target="_blank" class="inline-flex items-center justify-center gap-2 bg-slate-800 hover:bg-slate-700 text-white px-6 py-3 rounded-xl transition-colors shadow-md hover:shadow-lg">
+                        <i class="fa-solid fa-globe"></i>
+                        <span class="font-bold">투어메이커 홈페이지 바로가기</span>
+                    </a>
+                </div>
+
+                <p class="text-[10px] text-slate-400 mt-4">
                     &copy; 2026 Tourmaker. All Rights Reserved.
                 </p>
             </div>
