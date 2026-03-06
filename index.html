@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="ko" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <!-- 모바일 접근성: 확대 허용 -->
@@ -8,7 +8,7 @@
     
     <!-- Open Graph -->
     <meta property="og:title" content="[투어메이커] 일본 오사카/교토 3일 일정표">
-    <meta property="og:description" content="모두투어 제휴상품/스루가이드동행/3대특식 - 투어메이커가 제안하는 믿을 수 있는 일본여행">
+    <meta property="og:description" content="모두투어 제휴상품/스루가이드동행/3대특식/호텔확정 - 투어메이커가 제안하는 믿을 수 있는 일본여행">
     <meta property="og:image" content="https://images.unsplash.com/photo-1590559899731-a382839e5549?q=80&w=2070&auto=format&fit=crop">
 
     <!-- ==================================================================================
@@ -82,7 +82,9 @@
             <div class="flex items-center justify-between h-16">
                 <!-- Logo -->
                 <div class="flex items-center gap-2 md:gap-3">
-                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHfgIX70O5k6Anuo0UgALIdaG9jSga9auHu3uyz0uEirylGPAJnjN_qQbvEGMUvPqUQf_g9FMNUHRxlDcUBf4vZ3Mpy4TnA9WxbmzWYK11gt2zuy_Irl4wctNFjcjLyPo0GPXV792o_J7L9guRMuDfeC1gy7USwywjYbECZgzcsHybuGRRAXAnO1eNmP8/s320/logo.png" alt="Tourmaker" class="h-6 md:h-8 w-auto">
+                    <a href="https://tourmaker.kr" target="_blank">
+                        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHfgIX70O5k6Anuo0UgALIdaG9jSga9auHu3uyz0uEirylGPAJnjN_qQbvEGMUvPqUQf_g9FMNUHRxlDcUBf4vZ3Mpy4TnA9WxbmzWYK11gt2zuy_Irl4wctNFjcjLyPo0GPXV792o_J7L9guRMuDfeC1gy7USwywjYbECZgzcsHybuGRRAXAnO1eNmP8/s320/logo.png" alt="Tourmaker" class="h-6 md:h-8 w-auto">
+                    </a>
                     <!-- D-Day Badge -->
                     <div id="d-day-badge" class="bg-indigo-600 text-white text-[10px] md:text-xs font-bold px-2 py-1 rounded-full shadow animate-pulse">
                         D-Day
@@ -94,6 +96,7 @@
                     <a href="#home" class="nav-link" onclick="trackClick('Menu', 'Home')">홈</a>
                     <a href="#guide" class="nav-link text-rose-600 font-bold" onclick="trackClick('Menu', 'Guide')">안심 가이드</a>
                     <a href="#timeline" class="nav-link" onclick="trackClick('Menu', 'Timeline')">상세일정</a>
+                    <a href="#hotel" class="nav-link" onclick="trackClick('Menu', 'Hotel')">호텔확정</a>
                     <a href="#assistant" class="nav-link text-indigo-600 font-bold" onclick="trackClick('Menu', 'Assistant')">여행비서</a>
                 </div>
 
@@ -110,6 +113,7 @@
         <section id="home" class="hero-bg-jp min-h-[85vh] flex items-center justify-center text-center px-4 relative scroll-mt-0">
             <div class="z-10 text-white max-w-5xl w-full animate-fade-in-up flex flex-col items-center">
                 
+                <span class="bg-indigo-600/90 text-white px-4 py-1.5 rounded-full text-sm font-bold mb-4 border border-white/20 shadow-lg">일정 및 호텔 최종 확정</span>
                 <h1 class="text-4xl md:text-6xl font-[Nanum Myeongjo] font-bold leading-tight text-white drop-shadow-xl mb-4">
                     모두투어 & 투어메이커<br>오사카/교토 3일
                 </h1>
@@ -141,8 +145,8 @@
                     <!-- Point 4 -->
                     <div class="bg-white/10 backdrop-blur-md border border-white/20 rounded-xl p-3 md:p-4 flex flex-col items-center justify-center hover:bg-white/20 transition-all">
                         <i class="fa-solid fa-bed text-rose-300 text-2xl md:text-3xl mb-2"></i>
-                        <span class="text-xs md:text-sm font-bold text-white">월드 체인</span>
-                        <span class="text-[10px] text-slate-300">메리어트/몬트레이</span>
+                        <span class="text-xs md:text-sm font-bold text-white">호텔 확정</span>
+                        <span class="text-[10px] text-slate-300">몬트레이/알로프트</span>
                     </div>
                 </div>
 
@@ -171,7 +175,7 @@
                                     <i class="fa-solid fa-user-tie text-5xl text-white"></i>
                                 </div>
                                 <span class="absolute -bottom-3 left-1/2 transform -translate-x-1/2 bg-rose-500 text-white text-xs px-3 py-1.5 rounded-full font-bold shadow-lg whitespace-nowrap">
-                                    전일정 동행
+                                    확정 가이드
                                 </span>
                             </div>
                             
@@ -185,7 +189,7 @@
                                 <div class="flex flex-col sm:flex-row gap-3 justify-center md:justify-start">
                                     <a href="tel:01026502097" onclick="trackClick('Guide', 'Call_YooSora')" class="bg-white text-indigo-700 hover:bg-indigo-50 px-5 py-3 rounded-xl flex items-center justify-center gap-2 font-bold transition-colors shadow-md group">
                                         <i class="fa-solid fa-phone-volume group-hover:animate-bounce"></i>
-                                        <span>010-2650-2097</span>
+                                        <span>010-2650-2097 <span class="text-xs text-indigo-400 font-normal ml-1">[한국/로밍]</span></span>
                                     </a>
                                     <div class="bg-indigo-900/50 px-5 py-3 rounded-xl flex items-center justify-center gap-2 text-sm font-medium border border-indigo-500/30">
                                         <i class="fa-solid fa-shield-heart text-rose-400 text-lg"></i>
@@ -198,12 +202,12 @@
                         <!-- 공동행사 안내 박스 -->
                         <div class="mt-8 bg-white/10 p-4 md:p-5 rounded-xl border border-white/20 text-sm">
                             <div class="flex items-start gap-3">
-                                <i class="fa-solid fa-circle-info text-yellow-300 text-lg mt-0.5"></i>
+                                <i class="fa-solid fa-users text-yellow-300 text-lg mt-0.5"></i>
                                 <div>
-                                    <p class="font-bold text-white mb-1">패키지 상품 공동행사 안내</p>
+                                    <p class="font-bold text-white mb-1">패키지 상품 행사 인원 안내</p>
                                     <p class="text-indigo-100 leading-relaxed">
-                                        본 여행은 예약이 마감되어 <span class="text-white font-bold bg-indigo-900/50 px-1 rounded">총 36명</span>(최소 출발 인원 10명 충족)의 고객님들과 함께 진행됩니다.<br class="hidden md:block">
-                                        패키지 상품 특성상 현지에서 다른 일행분들과 조인하여 공동으로 행사가 진행되는 점 참고 부탁드립니다.
+                                        본 여행은 예약이 마감되어 <span class="text-white font-bold bg-indigo-900/50 px-2 py-0.5 rounded">총 36명의 고객님</span>과 <span class="text-white font-bold bg-indigo-900/50 px-2 py-0.5 rounded">가이드 1명 (36+1 T/G)</span>이 함께 진행합니다.<br class="hidden md:block">
+                                        많은 인원인 만큼 대형 전용 버스를 배정하여 쾌적한 이동을 약속드립니다.
                                     </p>
                                 </div>
                             </div>
@@ -215,7 +219,7 @@
                     <!-- Part 1: Incheon Departure -->
                     <div class="bg-white rounded-2xl shadow-xl border border-slate-200 overflow-hidden">
                         <div class="bg-slate-800 p-4 text-white flex justify-between items-center">
-                            <h3 class="text-lg font-bold"><i class="fa-solid fa-users-rectangle mr-2 text-yellow-400"></i>인천공항 미팅 (3/13 금)</h3>
+                            <h3 class="text-lg font-bold"><i class="fa-solid fa-plane-departure mr-2 text-sky-400"></i>인천공항 미팅 (3/13 금)</h3>
                             <span class="text-xs bg-white/20 px-2 py-1 rounded">11:10 출발</span>
                         </div>
                         <div class="p-6">
@@ -267,12 +271,12 @@
                                 </div>
                                 <div class="relative">
                                     <div class="absolute -left-[31px] top-0 w-4 h-4 bg-indigo-500 rounded-full ring-4 ring-white"></div>
-                                    <h4 class="font-bold text-indigo-700">2. 전용버스 탑승</h4>
+                                    <h4 class="font-bold text-indigo-700">2. 대형 전용버스 탑승 (확정)</h4>
                                     <div class="mt-2 bg-indigo-50 p-4 rounded-xl border border-indigo-100">
-                                        <p class="text-sm font-bold text-slate-800 mb-2"><i class="fa-solid fa-user-group text-indigo-500 mr-1"></i>유소라 가이드 인솔</p>
+                                        <p class="text-sm font-bold text-slate-800 mb-2"><i class="fa-solid fa-bus text-indigo-500 mr-1"></i>유소라 가이드 인솔</p>
                                         <p class="text-sm text-slate-700 leading-relaxed">
                                             짐을 찾고 나오시면 가이드의 안내에 따라<br>
-                                            <span class="text-indigo-600 font-bold">우리 일행을 위해 대기 중인 전용 버스</span>로 바로 이동합니다.
+                                            우리 일행을 위해 대기 중인 <span class="text-indigo-600 font-bold bg-white px-1.5 py-0.5 rounded border border-indigo-200">45인승 대형 전용 버스</span>로 바로 이동하여 편안하게 일정을 시작합니다.
                                         </p>
                                     </div>
                                 </div>
@@ -285,7 +289,7 @@
         </section>
 
         <!-- 3. Highlights -->
-        <section id="highlights" class="py-16 bg-white">
+        <section id="highlights" class="py-16 bg-white border-t border-slate-200">
             <div class="container mx-auto px-4">
                 <div class="text-center mb-10">
                     <h2 class="text-2xl font-bold text-slate-800">여행 하이라이트</h2>
@@ -321,7 +325,7 @@
         </section>
 
         <!-- 4. Timeline -->
-        <section id="timeline" class="py-20 bg-slate-50">
+        <section id="timeline" class="py-20 bg-slate-50 border-t border-slate-200">
             <div class="container mx-auto px-4">
                 <div class="text-center mb-4">
                     <h2 class="text-2xl font-bold text-slate-800">상세 일정표</h2>
@@ -332,11 +336,11 @@
                     <div class="bg-white rounded-xl shadow-sm border border-indigo-100 p-4 md:p-5 flex flex-col md:flex-row items-center justify-between gap-4">
                         <div class="flex items-start gap-3">
                             <div class="bg-indigo-100 p-2 rounded-full shrink-0">
-                                <i class="fa-solid fa-circle-info text-indigo-600 text-lg"></i>
+                                <i class="fa-solid fa-circle-check text-indigo-600 text-lg"></i>
                             </div>
                             <div class="text-left">
-                                <p class="font-bold text-slate-800 text-sm md:text-base">더 자세한 일정과 포함사항이 궁금하신가요?</p>
-                                <p class="text-xs text-slate-500 mt-1">모두투어 공식 페이지에서 원문 일정을 확인하실 수 있습니다.</p>
+                                <p class="font-bold text-slate-800 text-sm md:text-base">일정 및 포함사항 최종 확정</p>
+                                <p class="text-xs text-slate-500 mt-1">세부적인 식사 및 포함 내역은 모두투어 공식 페이지에서 확인 가능합니다.</p>
                             </div>
                         </div>
                         <a href="https://www.modetour.com/package/103204019?MLoc=99&Pnum=103204019&Sno=C1091311&ANO=7900804&thru=crs" target="_blank" class="w-full md:w-auto bg-indigo-600 hover:bg-indigo-700 text-white text-sm font-bold py-3 px-6 rounded-lg transition-colors flex items-center justify-center gap-2 shadow-md hover:shadow-lg" onclick="trackClick('Outlink', 'Modetour_Original')">
@@ -370,7 +374,7 @@
                                 <span class="absolute -left-[31px] top-1 w-4 h-4 bg-indigo-500 rounded-full"></span>
                                 <span class="text-indigo-600 font-bold text-sm">13:00</span>
                                 <p class="text-slate-800 font-medium">오사카(간사이) 도착</p>
-                                <p class="text-sm text-slate-500 mt-1">가이드와 함께 전용 버스로 이동</p>
+                                <p class="text-sm text-slate-500 mt-1">45인승 대형 전용 버스로 쾌적하게 이동</p>
                             </li>
                             <li class="relative">
                                 <span class="absolute -left-[31px] top-1 w-4 h-4 bg-slate-300 rounded-full"></span>
@@ -390,11 +394,11 @@
                             </li>
                             <li class="relative">
                                 <span class="absolute -left-[31px] top-1 w-4 h-4 bg-amber-500 rounded-full"></span>
-                                <p class="text-slate-800 font-bold text-amber-700">석식: 가마메시 (일본식 솥밥) 정식</p>
+                                <p class="text-slate-800 font-bold text-amber-700">석식: 특식 (스키야키 정식)</p>
                             </li>
                             <li class="relative">
                                 <span class="absolute -left-[31px] top-1 w-4 h-4 bg-indigo-800 rounded-full"></span>
-                                <p class="text-slate-800 font-bold">호텔 체크인 및 온천욕</p>
+                                <p class="text-slate-800 font-bold">호텔 체크인 (몬트레이 교토) 및 휴식</p>
                             </li>
                         </ul>
                     </div>
@@ -407,6 +411,10 @@
                         </h3>
                         <ul class="space-y-6 border-l-2 border-slate-100 ml-2 pl-6">
                             <li class="relative">
+                                <span class="absolute -left-[31px] top-1 w-4 h-4 bg-amber-500 rounded-full"></span>
+                                <p class="text-slate-800 font-bold text-amber-700">조식: 호텔식</p>
+                            </li>
+                            <li class="relative">
                                 <span class="absolute -left-[31px] top-1 w-4 h-4 bg-rose-400 rounded-full"></span>
                                 <p class="text-slate-800 font-bold">청수사 (기요미즈데라)</p>
                             </li>
@@ -416,7 +424,7 @@
                             </li>
                             <li class="relative">
                                 <span class="absolute -left-[31px] top-1 w-4 h-4 bg-amber-500 rounded-full"></span>
-                                <p class="text-slate-800 font-bold text-amber-700">중식: 스키야키 정식</p>
+                                <p class="text-slate-800 font-bold text-amber-700">중식: 특식 (유두부 정식)</p>
                             </li>
                             <li class="relative">
                                 <span class="absolute -left-[31px] top-1 w-4 h-4 bg-slate-300 rounded-full"></span>
@@ -427,12 +435,16 @@
                                 <p class="text-slate-800 font-bold">도톤보리 자유시간</p>
                             </li>
                             <li class="relative">
+                                <span class="absolute -left-[31px] top-1 w-4 h-4 bg-amber-500 rounded-full"></span>
+                                <p class="text-slate-800 font-bold text-amber-700">석식: 자유식 (1,000엔 지급)</p>
+                            </li>
+                            <li class="relative">
                                 <span class="absolute -left-[31px] top-1 w-4 h-4 bg-indigo-600 rounded-full"></span>
                                 <p class="text-slate-800 font-bold">난바 파크스 일루미네이션</p>
                             </li>
                             <li class="relative">
                                 <span class="absolute -left-[31px] top-1 w-4 h-4 bg-indigo-800 rounded-full"></span>
-                                <p class="text-slate-800 font-bold">호텔 투숙</p>
+                                <p class="text-slate-800 font-bold">호텔 체크인 (알로프트 오사카 도지마) 및 휴식</p>
                             </li>
                         </ul>
                     </div>
@@ -445,12 +457,16 @@
                         </h3>
                         <ul class="space-y-6 border-l-2 border-slate-100 ml-2 pl-6">
                             <li class="relative">
+                                <span class="absolute -left-[31px] top-1 w-4 h-4 bg-amber-500 rounded-full"></span>
+                                <p class="text-slate-800 font-bold text-amber-700">조식: 호텔식</p>
+                            </li>
+                            <li class="relative">
                                 <span class="absolute -left-[31px] top-1 w-4 h-4 bg-emerald-500 rounded-full"></span>
                                 <p class="text-slate-800 font-bold">오사카성 공원</p>
                             </li>
                             <li class="relative">
                                 <span class="absolute -left-[31px] top-1 w-4 h-4 bg-amber-500 rounded-full"></span>
-                                <p class="text-slate-800 font-bold text-amber-700">중식: 유두부 정식 (교토 명물)</p>
+                                <p class="text-slate-800 font-bold text-amber-700">중식: 특식 (가마메시 정식)</p>
                             </li>
                             <li class="relative">
                                 <span class="absolute -left-[31px] top-1 w-4 h-4 bg-slate-300 rounded-full"></span>
@@ -474,23 +490,25 @@
         </section>
 
         <!-- 5. Hotel Info -->
-        <section id="hotel" class="py-16 bg-white">
+        <section id="hotel" class="py-16 bg-white border-t border-slate-200">
             <div class="container mx-auto px-4">
                 <div class="max-w-5xl mx-auto">
                     <div class="text-center mb-10">
                         <h2 class="text-2xl font-bold text-slate-800">숙박 호텔 안내</h2>
-                        <p class="text-slate-500 mt-2 text-sm">
-                            <i class="fa-solid fa-circle-info text-indigo-500 mr-1"></i> 
-                            상기 호텔은 예정이며, 현지 사정에 따라 동급의 다른 호텔로 변경될 수 있습니다.
-                        </p>
+                        <div class="inline-block mt-3 bg-green-50 text-green-700 border border-green-200 px-4 py-2 rounded-lg text-sm font-bold shadow-sm">
+                            <i class="fa-solid fa-circle-check mr-1"></i> 전 일정 숙박 호텔이 최종 확정되었습니다.
+                        </div>
                     </div>
 
                     <div class="grid md:grid-cols-2 gap-8">
                         <!-- Hotel 1 -->
-                        <div class="bg-slate-50 rounded-2xl overflow-hidden shadow-md border border-slate-100 flex flex-col">
+                        <div class="bg-slate-50 rounded-2xl overflow-hidden shadow-md border border-slate-100 flex flex-col relative">
+                            <div class="absolute top-4 right-4 bg-indigo-600 text-white text-xs px-2.5 py-1 rounded shadow-sm z-10 font-bold">
+                                🏨 호텔 확정
+                            </div>
                             <div class="relative h-64">
                                 <img src="https://tse4.mm.bing.net/th/id/OIP.UFUzs4pbCV8wtnalMrT11AHaFj?w=474&h=379&c=7&p=0" class="w-full h-full object-cover">
-                                <span class="absolute top-4 left-4 bg-indigo-600 text-white px-3 py-1 rounded-full text-xs font-bold">1일차 교토</span>
+                                <span class="absolute top-4 left-4 bg-slate-800 text-white px-3 py-1 rounded-full text-xs font-bold shadow-sm">1일차 (3/13) 교토</span>
                             </div>
                             <div class="p-6 flex-grow">
                                 <h3 class="text-xl font-bold text-slate-800 mb-2">호텔 몬트레이 교토</h3>
@@ -503,10 +521,13 @@
                         </div>
 
                         <!-- Hotel 2 -->
-                        <div class="bg-slate-50 rounded-2xl overflow-hidden shadow-md border border-slate-100 flex flex-col">
+                        <div class="bg-slate-50 rounded-2xl overflow-hidden shadow-md border border-slate-100 flex flex-col relative">
+                            <div class="absolute top-4 right-4 bg-rose-600 text-white text-xs px-2.5 py-1 rounded shadow-sm z-10 font-bold">
+                                🏨 호텔 확정
+                            </div>
                             <div class="relative h-64">
                                 <img src="https://tse4.mm.bing.net/th/id/OIP.Vi9KfIefHCjX_els4B147QHaE7?w=474&h=379&c=7&p=0" class="w-full h-full object-cover">
-                                <span class="absolute top-4 left-4 bg-rose-500 text-white px-3 py-1 rounded-full text-xs font-bold">2일차 오사카</span>
+                                <span class="absolute top-4 left-4 bg-slate-800 text-white px-3 py-1 rounded-full text-xs font-bold shadow-sm">2일차 (3/14) 오사카</span>
                             </div>
                             <div class="p-6 flex-grow">
                                 <h3 class="text-xl font-bold text-slate-800 mb-2">알로프트 오사카 도지마</h3>
@@ -608,11 +629,10 @@
 
     </main>
 
-    <!-- Footer 전면 개선 (화이트/라이트그레이 톤으로 자연스러운 로고 융화) -->
+    <!-- Footer -->
     <footer class="bg-slate-50 text-slate-600 py-16 text-center text-sm border-t border-slate-200">
         <div class="container mx-auto px-4">
             
-            <!-- 로고 영역: 배경 박스 제거하고 자연스럽게 배치 -->
             <div class="flex justify-center items-center gap-6 mb-8">
                 <!-- Tourmaker -->
                 <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHfgIX70O5k6Anuo0UgALIdaG9jSga9auHu3uyz0uEirylGPAJnjN_qQbvEGMUvPqUQf_g9FMNUHRxlDcUBf4vZ3Mpy4TnA9WxbmzWYK11gt2zuy_Irl4wctNFjcjLyPo0GPXV792o_J7L9guRMuDfeC1gy7USwywjYbECZgzcsHybuGRRAXAnO1eNmP8/s320/logo.png" alt="Tourmaker" class="h-8 md:h-10 w-auto opacity-90 hover:opacity-100 transition-opacity">
@@ -638,6 +658,10 @@
                     </a>
                 </div>
 
+                <p style="font-size: 12px; color: #6c757d; text-align: center; line-height: 1.6; max-width: 600px; margin: 1.5rem auto 1rem;">
+                    [System Powered by TOURMAKER] 본 스마트 가이드북은 **모두투어**의 기획과 <a href="http://tourmaker.kr" target="_blank" style="color: #6c757d; font-weight: bold; text-decoration: underline; text-underline-offset: 2px;">투어메이커</a>의 트래블 테크 기술 제휴로 제작되었습니다.
+                </p>
+                
                 <p class="text-[10px] text-slate-400 mt-4">
                     &copy; 2026 Tourmaker. All Rights Reserved.
                 </p>
